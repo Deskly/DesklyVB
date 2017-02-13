@@ -26,14 +26,14 @@ Partial Class Form1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContextMenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -49,62 +49,62 @@ Partial Class Form1
         '
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem4, Me.ToolStripSeparator1, Me.ToolStripMenuItem1, Me.ToolStripMenuItem2, Me.ToolStripSeparator3, Me.ToolStripMenuItem3, Me.ToolStripSeparator2, Me.ExitToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(153, 48)
-        '
-        'ExitToolStripMenuItem
-        '
-        Me.ExitToolStripMenuItem.AutoToolTip = True
-        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.ExitToolStripMenuItem.Text = "Exit"
-        Me.ExitToolStripMenuItem.ToolTipText = "Exit the program."
-        '
-        'ToolStripMenuItem1
-        '
-        Me.ToolStripMenuItem1.CheckOnClick = True
-        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
-        Me.ToolStripMenuItem1.Text = "Copy Wallpaper Path"
-        Me.ToolStripMenuItem1.ToolTipText = "Copy Wallpaper's Path to clipboard"
-        '
-        'ToolStripSeparator1
-        '
-        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 6)
-        '
-        'ToolStripMenuItem2
-        '
-        Me.ToolStripMenuItem2.AutoToolTip = True
-        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(32, 19)
-        Me.ToolStripMenuItem2.Text = "Copy Wallpaper Image"
-        Me.ToolStripMenuItem2.ToolTipText = "Copies image to clipboard"
-        '
-        'ToolStripMenuItem3
-        '
-        Me.ToolStripMenuItem3.AutoToolTip = True
-        Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
-        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(32, 19)
-        Me.ToolStripMenuItem3.Text = "Settings"
-        Me.ToolStripMenuItem3.ToolTipText = "Configure Deskly"
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(195, 154)
         '
         'ToolStripMenuItem4
         '
         Me.ToolStripMenuItem4.AutoToolTip = True
         Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(32, 19)
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(194, 22)
         Me.ToolStripMenuItem4.Text = "Generate Wallpaper"
         Me.ToolStripMenuItem4.ToolTipText = "Generates a wallpaper based on specified subreddit in settings."
         '
-        'ToolStripSeparator2
+        'ToolStripSeparator1
         '
-        Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 6)
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(191, 6)
+        '
+        'ToolStripMenuItem1
+        '
+        Me.ToolStripMenuItem1.CheckOnClick = True
+        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(194, 22)
+        Me.ToolStripMenuItem1.Text = "Copy Wallpaper Path"
+        Me.ToolStripMenuItem1.ToolTipText = "Copy Wallpaper's Path to clipboard"
+        '
+        'ToolStripMenuItem2
+        '
+        Me.ToolStripMenuItem2.AutoToolTip = True
+        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(194, 22)
+        Me.ToolStripMenuItem2.Text = "Copy Wallpaper Image"
+        Me.ToolStripMenuItem2.ToolTipText = "Copies image to clipboard"
         '
         'ToolStripSeparator3
         '
         Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
-        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 6)
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(191, 6)
+        '
+        'ToolStripMenuItem3
+        '
+        Me.ToolStripMenuItem3.AutoToolTip = True
+        Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(194, 22)
+        Me.ToolStripMenuItem3.Text = "Settings"
+        Me.ToolStripMenuItem3.ToolTipText = "Configure Deskly"
+        '
+        'ToolStripSeparator2
+        '
+        Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(191, 6)
+        '
+        'ExitToolStripMenuItem
+        '
+        Me.ExitToolStripMenuItem.AutoToolTip = True
+        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(194, 22)
+        Me.ExitToolStripMenuItem.Text = "Exit"
+        Me.ExitToolStripMenuItem.ToolTipText = "Exit the program."
         '
         'Form1
         '

@@ -15,7 +15,6 @@ Public Class Form1
     Private Sub NotifyIcon1_MouseClick(sender As Object, e As MouseEventArgs) Handles NotifyIcon1.MouseClick
         If e.Button = MouseButtons.Right Then
 
-
         End If
     End Sub
 
@@ -25,5 +24,20 @@ Public Class Form1
 
     Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
         End
+    End Sub
+    Private Sub GenToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem4.Click
+        End
+    End Sub
+
+    Private Sub ToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem1.Click
+
+    End Sub
+
+    Private Sub ToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem2.Click
+
+    End Sub
+
+    Private Sub ToolStripMenuItem3_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem3.Click
+        Me.Show()
     End Sub
 End Class
